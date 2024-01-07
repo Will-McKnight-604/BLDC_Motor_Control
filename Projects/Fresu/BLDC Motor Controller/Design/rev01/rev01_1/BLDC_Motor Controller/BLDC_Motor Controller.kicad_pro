@@ -407,7 +407,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BLDC_Motor_Controller.kicad_pro",
+    "filename": "BLDC_Motor Controller.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -516,6 +516,38 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "6e5056e0-f286-40ca-8b4a-d506221b7bad",
+      "MCU"
+    ],
+    [
+      "ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6",
+      "FET Driver"
+    ],
+    [
+      "6ff318f8-ab62-4d6d-8e81-6536cd3472e5",
+      "MOSFETS"
+    ],
+    [
+      "83374fcd-87ee-43a7-8a01-920f2f382f6c",
+      "CAN BUS"
+    ],
+    [
+      "cf649508-ceea-40bc-abe4-7aa1a01e8c7e",
+      "Filters"
+    ],
+    [
+      "e37a9f6c-c772-4f76-b91a-38cf2a52ff11",
+      "Mechanical"
+    ],
+    [
+      "d10f54c5-0302-4af3-bb70-814f5508ae05",
+      "Overview"
+    ],
+    [
+      "3d0bda60-daf6-4222-a263-9b2f2899bfdb",
+      "Block Diagram"
     ]
   ],
   "text_variables": {}
