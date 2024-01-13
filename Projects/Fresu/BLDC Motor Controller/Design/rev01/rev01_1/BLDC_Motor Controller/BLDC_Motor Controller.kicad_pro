@@ -548,6 +548,14 @@
     [
       "3d0bda60-daf6-4222-a263-9b2f2899bfdb",
       "Block Diagram"
+    ],
+    [
+      "0a58613e-bda0-4563-bf79-2ea6a0b26c8f",
+      "INPUT PROTECTION"
+    ],
+    [
+      "ba85aeeb-1956-4c49-a97a-652e9d34f1e8",
+      "STEP-DOWN"
     ]
   ],
   "text_variables": {}
