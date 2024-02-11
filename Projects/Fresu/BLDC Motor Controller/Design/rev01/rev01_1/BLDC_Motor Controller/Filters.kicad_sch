@@ -781,7 +781,7 @@
   (symbol (lib_id "power:+3V3") (at 93.98 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02fcf8e5-aee8-4038-95b7-f819d5edbd6a)
-    (property "Reference" "#PWR068" (at 93.98 72.39 0)
+    (property "Reference" "#PWR067" (at 93.98 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 93.98 64.77 0)
@@ -797,7 +797,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -857,7 +857,7 @@
   (symbol (lib_id "Device:C") (at 109.22 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ca3bb29-81aa-4645-a13f-9a99012001f2)
-    (property "Reference" "C52" (at 102.87 115.57 0)
+    (property "Reference" "C53" (at 102.87 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 101.6 118.11 0)
@@ -874,7 +874,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "C52") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
     )
@@ -883,7 +883,7 @@
   (symbol (lib_id "Device:C") (at 109.22 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ee8f4bc-cd56-4a8a-87bd-3c847bebb415)
-    (property "Reference" "C44" (at 102.87 26.67 0)
+    (property "Reference" "C51" (at 102.87 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 101.6 29.21 0)
@@ -900,7 +900,39 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "C44") (unit 1)
+          (reference "C51") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 27.94 93.98 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 23b606e2-a1b1-448b-a20e-5c6546c63f32)
+    (property "Reference" "J7" (at 30.48 102.87 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x06" (at 33.02 82.55 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "DF_ESC_Footprint_Library:CONN-SMD_S6B-XH-SM4-TB-LF-SN" (at 27.94 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 27.94 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "5" (uuid 4d634760-8ddb-45f0-9cab-032e3bdb302f))
+    (pin "3" (uuid 2196c295-5f40-40de-86c3-2b244e89f967))
+    (pin "6" (uuid 026ca5a9-d518-4c2f-990e-adcadfdb2f58))
+    (pin "4" (uuid 361041b0-352e-4757-a7d8-975e528047b5))
+    (pin "1" (uuid 36efafbc-1ff9-49b9-a0c4-df82556268c8))
+    (pin "2" (uuid cde7841e-473e-48ae-882f-580f046f1445))
+    (pin "8" (uuid d4c3448d-cee9-42be-af3d-3e87902c1af5))
+    (pin "7" (uuid 48c6a490-e24d-42bd-822e-d1e143f83caa))
+    (instances
+      (project "BLDC_Motor Controller"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -909,7 +941,7 @@
   (symbol (lib_id "power:GND") (at 41.91 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 293ae6d4-a780-4083-a525-0fb3015679f8)
-    (property "Reference" "#PWR055" (at 41.91 109.22 0)
+    (property "Reference" "#PWR064" (at 41.91 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 107.95 0)
@@ -925,7 +957,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -934,7 +966,7 @@
   (symbol (lib_id "power:GND") (at 93.98 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2edf252f-4cc9-4862-b79f-3168282a9fa9)
-    (property "Reference" "#PWR067" (at 93.98 58.42 0)
+    (property "Reference" "#PWR066" (at 93.98 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 57.15 0)
@@ -950,7 +982,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -959,7 +991,7 @@
   (symbol (lib_id "Device:C") (at 109.22 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 328d0388-48e4-4b9b-bbe6-b42392088be9)
-    (property "Reference" "C50" (at 102.87 71.12 0)
+    (property "Reference" "C52" (at 102.87 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 101.6 73.66 0)
@@ -976,7 +1008,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "C50") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
     )
@@ -985,7 +1017,7 @@
   (symbol (lib_id "Device:C") (at 93.98 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3fb610db-b255-46c9-bd4f-c3d6ea68dbaf)
-    (property "Reference" "C48" (at 87.63 45.72 0)
+    (property "Reference" "C47" (at 87.63 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4n7" (at 86.36 48.26 0)
@@ -1002,7 +1034,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "C48") (unit 1)
+          (reference "C47") (unit 1)
         )
       )
     )
@@ -1011,7 +1043,7 @@
   (symbol (lib_id "power:+5V") (at 41.91 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47d3c342-1449-4b6e-8c6a-1f5fc5a09816)
-    (property "Reference" "#PWR054" (at 41.91 87.63 0)
+    (property "Reference" "#PWR063" (at 41.91 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 41.91 80.01 0)
@@ -1027,7 +1059,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -1036,7 +1068,7 @@
   (symbol (lib_id "power:GND") (at 93.98 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c8bb800-644b-4b61-b5bd-1d24799cbd24)
-    (property "Reference" "#PWR069" (at 93.98 102.87 0)
+    (property "Reference" "#PWR068" (at 93.98 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 101.6 0)
@@ -1052,7 +1084,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -1061,7 +1093,7 @@
   (symbol (lib_id "power:+3V3") (at 93.98 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62e6433e-239a-4a63-9432-3d8b77e589e0)
-    (property "Reference" "#PWR074" (at 93.98 161.29 0)
+    (property "Reference" "#PWR071" (at 93.98 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 93.98 153.67 0)
@@ -1077,7 +1109,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -1086,7 +1118,7 @@
   (symbol (lib_id "Device:R") (at 102.87 175.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78fa73bf-4ac6-4274-af1d-e0879a428927)
-    (property "Reference" "R49" (at 102.87 177.8 90)
+    (property "Reference" "R50" (at 102.87 177.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 102.87 180.34 90)
@@ -1103,7 +1135,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "R49") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -1112,7 +1144,7 @@
   (symbol (lib_id "Device:R") (at 102.87 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84661d22-ec44-41bb-b53b-adf6e899ee8e)
-    (property "Reference" "R45" (at 102.87 88.9 90)
+    (property "Reference" "R48" (at 102.87 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 102.87 91.44 90)
@@ -1129,7 +1161,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "R45") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -1138,7 +1170,7 @@
   (symbol (lib_id "power:GND") (at 109.22 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8688f3e7-9059-43c1-9618-1ccd8511bd26)
-    (property "Reference" "#PWR066" (at 109.22 39.37 0)
+    (property "Reference" "#PWR073" (at 109.22 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 38.1 0)
@@ -1154,7 +1186,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -1163,7 +1195,7 @@
   (symbol (lib_id "power:GND") (at 109.22 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8752e399-9fbe-4239-9eed-0b24aca87243)
-    (property "Reference" "#PWR073" (at 109.22 128.27 0)
+    (property "Reference" "#PWR075" (at 109.22 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 127 0)
@@ -1179,7 +1211,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -1188,7 +1220,7 @@
   (symbol (lib_id "Device:R") (at 93.98 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c5d3fec-b0aa-412e-91c0-beadea1bbd8c)
-    (property "Reference" "R46" (at 96.52 119.38 0)
+    (property "Reference" "R45" (at 96.52 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k2" (at 96.52 121.92 0)
@@ -1205,7 +1237,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "R46") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -1237,42 +1269,10 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 27.94 91.44 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9f44931b-2e5a-40bd-bea0-fc8e7290ef4d)
-    (property "Reference" "J8" (at 30.48 82.55 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x06" (at 33.02 102.87 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "DF_ESC_Footprint_Library:CONN-SMD_S6B-XH-SM4-TB-LF-SN" (at 27.94 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 27.94 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "5" (uuid 7d5606de-39df-4b82-9ba0-f3d45be5e8ba))
-    (pin "3" (uuid e9d1af7c-397c-40d3-9eae-c8cd4c701482))
-    (pin "6" (uuid 99dafc34-bb83-45bb-a38b-61b0367d2e98))
-    (pin "4" (uuid e59bfaee-7f64-457d-8e3b-579a04adb6a8))
-    (pin "1" (uuid 7d6fd100-c9f4-452d-a9b9-e483d69d8bed))
-    (pin "2" (uuid a2b6e401-6078-433e-a678-3a6e2045e949))
-    (pin "8" (uuid a3211b88-b0b4-4eb5-9d84-c22036c21b91))
-    (pin "7" (uuid 59e262ec-6c88-494e-863b-f61aa5eceba6))
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "J8") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 93.98 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a15fc40c-4acc-4b14-acf9-c5ecd18c1348)
-    (property "Reference" "R48" (at 96.52 163.83 0)
+    (property "Reference" "R46" (at 96.52 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 96.52 166.37 0)
@@ -1289,7 +1289,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "R48") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -1298,7 +1298,7 @@
   (symbol (lib_id "Device:C") (at 93.98 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a424601b-b8c9-4f6f-b232-f94619a92275)
-    (property "Reference" "C51" (at 87.63 134.62 0)
+    (property "Reference" "C49" (at 87.63 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4n7" (at 86.36 137.16 0)
@@ -1315,7 +1315,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "C51") (unit 1)
+          (reference "C49") (unit 1)
         )
       )
     )
@@ -1324,7 +1324,7 @@
   (symbol (lib_id "power:+3V3") (at 93.98 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4bf6b96-bb93-4e8a-850a-57255cc27979)
-    (property "Reference" "#PWR056" (at 93.98 27.94 0)
+    (property "Reference" "#PWR065" (at 93.98 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 93.98 20.32 0)
@@ -1340,7 +1340,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -1349,7 +1349,7 @@
   (symbol (lib_id "power:GND") (at 109.22 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7fb27a1-1d36-4d5f-8b4b-145cd89a82f8)
-    (property "Reference" "#PWR070" (at 109.22 83.82 0)
+    (property "Reference" "#PWR074" (at 109.22 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 82.55 0)
@@ -1365,7 +1365,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -1374,7 +1374,7 @@
   (symbol (lib_id "Device:R") (at 93.98 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b094e839-e9d2-4e69-b109-0955f5cceab6)
-    (property "Reference" "R38" (at 96.52 30.48 0)
+    (property "Reference" "R43" (at 96.52 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k2" (at 96.52 33.02 0)
@@ -1391,7 +1391,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "R38") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -1400,7 +1400,7 @@
   (symbol (lib_id "Device:R") (at 102.87 130.81 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b700f3c7-2ff5-47b8-88b9-821919fbf117)
-    (property "Reference" "R47" (at 102.87 133.35 90)
+    (property "Reference" "R49" (at 102.87 133.35 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 102.87 135.89 90)
@@ -1417,7 +1417,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "R47") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
@@ -1426,7 +1426,7 @@
   (symbol (lib_id "Device:C") (at 93.98 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9c4e543-6e50-4de9-a5ac-f86029e31e94)
-    (property "Reference" "C53" (at 87.63 179.07 0)
+    (property "Reference" "C50" (at 87.63 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4n7" (at 86.36 181.61 0)
@@ -1443,7 +1443,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "C53") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
     )
@@ -1452,7 +1452,7 @@
   (symbol (lib_id "power:GND") (at 93.98 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bac5066b-0f45-4f32-9651-35228faa58ba)
-    (property "Reference" "#PWR075" (at 93.98 191.77 0)
+    (property "Reference" "#PWR072" (at 93.98 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 190.5 0)
@@ -1468,7 +1468,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -1477,7 +1477,7 @@
   (symbol (lib_id "Device:C") (at 93.98 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbdc6e88-b6d5-4e17-bd70-675afafad43f)
-    (property "Reference" "C49" (at 87.63 90.17 0)
+    (property "Reference" "C48" (at 87.63 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4n7" (at 86.36 92.71 0)
@@ -1494,7 +1494,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "C49") (unit 1)
+          (reference "C48") (unit 1)
         )
       )
     )
@@ -1503,7 +1503,7 @@
   (symbol (lib_id "power:GND") (at 93.98 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5a9de84-bb02-4ed8-9121-903eda1d2eb6)
-    (property "Reference" "#PWR072" (at 93.98 147.32 0)
+    (property "Reference" "#PWR070" (at 93.98 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 146.05 0)
@@ -1519,7 +1519,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -1528,7 +1528,7 @@
   (symbol (lib_id "Device:R") (at 102.87 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db4c8cf0-f8a7-4dd4-9ad1-f3c2db0c8e82)
-    (property "Reference" "R43" (at 102.87 44.45 90)
+    (property "Reference" "R47" (at 102.87 44.45 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 102.87 46.99 90)
@@ -1545,7 +1545,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "R43") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -1554,7 +1554,7 @@
   (symbol (lib_id "power:+3V3") (at 93.98 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f480e804-20d1-433d-a958-9765be354045)
-    (property "Reference" "#PWR071" (at 93.98 116.84 0)
+    (property "Reference" "#PWR069" (at 93.98 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 93.98 109.22 0)
@@ -1570,7 +1570,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )

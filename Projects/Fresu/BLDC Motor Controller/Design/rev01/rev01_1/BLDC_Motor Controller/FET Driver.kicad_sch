@@ -2502,7 +2502,7 @@
   (symbol (lib_id "Device:R") (at 176.53 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 155225d8-0343-48fc-a6f2-d41717eb04a6)
-    (property "Reference" "R14" (at 176.53 86.36 90)
+    (property "Reference" "R15" (at 176.53 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 176.53 88.9 90)
@@ -2519,7 +2519,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6"
-          (reference "R14") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -2579,7 +2579,7 @@
   (symbol (lib_id "Device:R") (at 228.6 142.24 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f0aa9ba-c360-4268-bbd9-0c88592c9e45)
-    (property "Reference" "R15" (at 224.79 140.97 0)
+    (property "Reference" "R16" (at 224.79 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "39k" (at 224.79 143.51 0)
@@ -2596,7 +2596,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6"
-          (reference "R15") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -2630,7 +2630,7 @@
   (symbol (lib_id "Device:R") (at 229.87 90.17 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 220ad95a-700c-49bd-813e-41a8fdace75f)
-    (property "Reference" "R18" (at 233.68 88.9 0)
+    (property "Reference" "R19" (at 233.68 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K3" (at 233.68 91.44 0)
@@ -2647,7 +2647,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6"
-          (reference "R18") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2684,7 +2684,7 @@
     (property "Reference" "C33" (at 186.69 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10u" (at 186.69 62.23 0)
+    (property "Value" "1u" (at 186.69 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 189.5348 55.88 0)
@@ -2808,7 +2808,7 @@
   (symbol (lib_id "Device:R") (at 229.87 80.01 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45dc5b55-e68d-4939-8b57-0f05075c6c9f)
-    (property "Reference" "R17" (at 233.68 78.74 0)
+    (property "Reference" "R18" (at 233.68 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "18K" (at 233.68 81.28 0)
@@ -2825,7 +2825,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6"
-          (reference "R17") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -2914,7 +2914,7 @@
     (property "Reference" "C30" (at 173.99 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10u" (at 173.99 62.23 0)
+    (property "Value" "1u" (at 173.99 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 176.8348 55.88 0)
@@ -2988,7 +2988,7 @@
   (symbol (lib_id "Device:R") (at 87.63 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 566575ac-383f-47d8-ba1f-fa1188f1cb3f)
-    (property "Reference" "R13" (at 90.17 59.69 0)
+    (property "Reference" "R14" (at 90.17 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "205K" (at 90.17 62.23 0)
@@ -3005,7 +3005,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6"
-          (reference "R13") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3245,7 +3245,7 @@
   (symbol (lib_id "Device:R") (at 269.24 142.24 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 734c7d24-2d37-43f5-a5c8-bb05c4b7e8ff)
-    (property "Reference" "R21" (at 265.43 140.97 0)
+    (property "Reference" "R22" (at 265.43 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "39k" (at 265.43 143.51 0)
@@ -3262,7 +3262,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6"
-          (reference "R21") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -3271,7 +3271,7 @@
   (symbol (lib_id "Device:R") (at 248.92 142.24 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7adc04f0-ff26-4d49-b7d1-e5d72f71a881)
-    (property "Reference" "R19" (at 245.11 140.97 0)
+    (property "Reference" "R20" (at 245.11 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "39k" (at 245.11 143.51 0)
@@ -3288,7 +3288,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6"
-          (reference "R19") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -3426,7 +3426,7 @@
     (property "Reference" "C38" (at 205.74 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10u" (at 205.74 62.23 0)
+    (property "Value" "1u" (at 205.74 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 208.5848 55.88 0)
@@ -3525,7 +3525,7 @@
   (symbol (lib_id "Device:R") (at 248.92 152.4 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a101d58b-d0ba-4739-b363-2c4cca403923)
-    (property "Reference" "R20" (at 245.11 151.13 0)
+    (property "Reference" "R21" (at 245.11 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2K2" (at 245.11 153.67 0)
@@ -3542,7 +3542,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6"
-          (reference "R20") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -3554,7 +3554,7 @@
     (property "Reference" "C36" (at 199.39 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10u" (at 199.39 62.23 0)
+    (property "Value" "1u" (at 199.39 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 202.2348 55.88 0)
@@ -3705,7 +3705,7 @@
   (symbol (lib_id "Device:R") (at 228.6 152.4 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b67dfabb-8d2c-448e-808f-6515b48dcb2e)
-    (property "Reference" "R16" (at 224.79 151.13 0)
+    (property "Reference" "R17" (at 224.79 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2K2" (at 224.79 153.67 0)
@@ -3722,7 +3722,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6"
-          (reference "R16") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -3759,7 +3759,7 @@
     (property "Reference" "C35" (at 193.04 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10u" (at 193.04 62.23 0)
+    (property "Value" "1u" (at 193.04 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 195.8848 55.88 0)
@@ -3782,7 +3782,7 @@
   (symbol (lib_id "Device:R") (at 67.31 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb8bf7ce-197d-4e2e-84fb-5653229dfb49)
-    (property "Reference" "R12" (at 67.31 74.93 90)
+    (property "Reference" "R13" (at 67.31 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 67.31 77.47 90)
@@ -3799,7 +3799,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6"
-          (reference "R12") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -3837,7 +3837,7 @@
     (property "Reference" "C32" (at 180.34 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10u" (at 180.34 62.23 0)
+    (property "Value" "1u" (at 180.34 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 183.1848 55.88 0)
@@ -3885,7 +3885,7 @@
   (symbol (lib_id "Device:R") (at 269.24 152.4 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d79e7518-421e-4b03-ba67-e1ab7098b66e)
-    (property "Reference" "R22" (at 265.43 151.13 0)
+    (property "Reference" "R23" (at 265.43 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2K2" (at 265.43 153.67 0)
@@ -3902,7 +3902,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6"
-          (reference "R22") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -4145,7 +4145,7 @@
   (symbol (lib_id "Device:R") (at 67.31 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid efdd4d8c-bbb3-4e7d-a04c-52e9682b719e)
-    (property "Reference" "R11" (at 69.85 60.96 0)
+    (property "Reference" "R12" (at 69.85 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "16k" (at 69.85 63.5 0)
@@ -4162,7 +4162,7 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6"
-          (reference "R11") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -4174,7 +4174,7 @@
     (property "Reference" "C29" (at 170.18 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10n" (at 170.18 72.39 90)
+    (property "Value" "100n" (at 170.18 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 173.99 75.2348 0)
