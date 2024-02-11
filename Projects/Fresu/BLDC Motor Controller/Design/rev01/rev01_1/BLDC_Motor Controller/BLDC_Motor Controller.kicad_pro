@@ -556,6 +556,10 @@
     [
       "ba85aeeb-1956-4c49-a97a-652e9d34f1e8",
       "STEP-DOWN"
+    ],
+    [
+      "b75e002c-1f9d-4638-b120-9eb91151ad06",
+      "USB"
     ]
   ],
   "text_variables": {}

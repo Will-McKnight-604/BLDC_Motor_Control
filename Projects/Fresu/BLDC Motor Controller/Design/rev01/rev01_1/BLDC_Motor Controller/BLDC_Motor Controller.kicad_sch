@@ -124,6 +124,23 @@
     )
   )
 
+  (sheet (at 223.52 78.74) (size 33.02 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b75e002c-1f9d-4638-b120-9eb91151ad06)
+    (property "Sheetname" "USB" (at 223.52 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB.kicad_sch" (at 223.52 105.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BLDC_Motor Controller"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "12"))
+      )
+    )
+  )
+
   (sheet (at 144.78 45.72) (size 33.02 26.67) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
