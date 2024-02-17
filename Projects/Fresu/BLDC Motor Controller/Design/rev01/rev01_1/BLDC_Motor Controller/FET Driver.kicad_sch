@@ -1913,7 +1913,7 @@
     (effects (font (size 1.27 1.27) bold) (justify right bottom))
     (uuid 2c7133de-f94b-46c4-83a9-973709485c33)
   )
-  (text "Hx_VS\n\n" (at 224.79 124.46 0)
+  (text "MID-POINT HALF BRIDGE VOLTAGE SENSING \n\n" (at 257.81 124.46 0)
     (effects (font (size 1.27 1.27) bold) (justify right bottom))
     (uuid 3708d2ef-e6c0-43d0-9c6d-eeba4ab27ad6)
   )

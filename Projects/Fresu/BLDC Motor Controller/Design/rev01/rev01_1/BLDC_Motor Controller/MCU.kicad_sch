@@ -3363,7 +3363,7 @@
     (property "Reference" "C1" (at 29.21 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 29.21 30.48 0)
+    (property "Value" "10u" (at 29.21 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 36.5252 33.02 0)
