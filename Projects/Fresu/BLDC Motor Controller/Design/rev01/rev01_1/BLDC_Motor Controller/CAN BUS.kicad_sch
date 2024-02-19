@@ -852,9 +852,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "U3") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "U5") (unit 1)
-        )
       )
     )
   )
@@ -881,9 +878,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "R41") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "R40") (unit 1)
-        )
       )
     )
   )
@@ -909,9 +903,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "#PWR058") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "#PWR060") (unit 1)
-        )
       )
     )
   )
@@ -936,9 +927,6 @@
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "#PWR061") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -966,9 +954,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "R40") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "R39") (unit 1)
-        )
       )
     )
   )
@@ -993,9 +978,6 @@
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "#PWR059") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -1023,9 +1005,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "C44") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "C45") (unit 1)
-        )
       )
     )
   )
@@ -1052,9 +1031,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "R39") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "R41") (unit 1)
-        )
       )
     )
   )
@@ -1079,9 +1055,6 @@
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "#PWR054") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -1108,9 +1081,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "#PWR057") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "#PWR061") (unit 1)
-        )
       )
     )
   )
@@ -1135,9 +1105,6 @@
     (instances
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
-          (reference "R42") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
           (reference "R42") (unit 1)
         )
       )
@@ -1166,9 +1133,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "C46") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "C47") (unit 1)
-        )
       )
     )
   )
@@ -1195,9 +1159,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "C45") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "C46") (unit 1)
-        )
       )
     )
   )
@@ -1222,9 +1183,6 @@
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "#PWR060") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -1258,9 +1216,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "U4") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "U3") (unit 1)
-        )
       )
     )
   )
@@ -1286,9 +1241,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "#PWR056") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "#PWR059") (unit 1)
-        )
       )
     )
   )
@@ -1313,9 +1265,6 @@
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "#PWR055") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -1345,9 +1294,6 @@
     (pin "2" (uuid 54c607de-4e3f-4e0a-9e75-995ec4205f96))
     (instances
       (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "FL1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "FL1") (unit 1)
         )
@@ -1378,9 +1324,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "D9") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "D11") (unit 1)
-        )
       )
     )
   )
@@ -1405,9 +1348,6 @@
       (project "BLDC_Motor Controller"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
           (reference "#PWR062") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b75e002c-1f9d-4638-b120-9eb91151ad06"
-          (reference "#PWR064") (unit 1)
         )
       )
     )
