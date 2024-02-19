@@ -618,6 +618,11 @@
     (uuid 625338ee-bf21-4d83-aedb-c5997a9619a9)
   )
 
+  (label "+3v3Vout" (at 154.94 74.93 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4f15f245-51ad-46bf-8857-b85386adb55c)
+  )
+
   (symbol (lib_id "power:GND") (at 86.36 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fa1c1b2-52f1-4e45-9e68-33154da1fc5a)
