@@ -1,461 +1,1208 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid bf4375b5-a284-455d-927f-489d9aaeb0cc)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole_Pad" (at 0 4.445 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_Pad_0_1"
-        (circle (center 0 1.27) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "MountingHole_Pad_1_1"
-        (pin input line (at 0 -2.54 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (wire (pts (xy 43.18 124.46) (xy 43.18 127))
-    (stroke (width 0) (type default))
-    (uuid 0347a4d0-ce8b-491d-9b2e-8a99f71c5f8c)
-  )
-  (wire (pts (xy 67.31 147.32) (xy 67.31 148.59))
-    (stroke (width 0) (type default))
-    (uuid 1f54dcdb-38ec-4548-9697-9e0b9f715faa)
-  )
-  (wire (pts (xy 68.58 115.57) (xy 68.58 116.84))
-    (stroke (width 0) (type default))
-    (uuid 334fc538-7216-466a-bb77-230882b0aa63)
-  )
-  (wire (pts (xy 67.31 156.21) (xy 67.31 158.75))
-    (stroke (width 0) (type default))
-    (uuid 698e69a6-316a-4284-88cc-36b77687cce5)
-  )
-  (wire (pts (xy 43.18 115.57) (xy 43.18 116.84))
-    (stroke (width 0) (type default))
-    (uuid 84fe85b1-88ab-464e-bb57-42100da5cffe)
-  )
-  (wire (pts (xy 68.58 124.46) (xy 68.58 127))
-    (stroke (width 0) (type default))
-    (uuid 8de63499-e9e1-461d-ac4a-2a2217742b4d)
-  )
-  (wire (pts (xy 41.91 156.21) (xy 41.91 158.75))
-    (stroke (width 0) (type default))
-    (uuid c5fc1acc-01e8-4333-8885-308d26983fbe)
-  )
-  (wire (pts (xy 41.91 147.32) (xy 41.91 148.59))
-    (stroke (width 0) (type default))
-    (uuid f2b707dc-5892-4af3-a45e-a24c57318164)
-  )
-
-  (symbol (lib_id "Device:R") (at 68.58 120.65 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 01260722-2a1a-44d8-a65d-f865b6cbd3db)
-    (property "Reference" "R54" (at 71.12 120.65 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 73.66 120.65 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 66.802 120.65 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 68.58 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid d2adbad5-3290-4f0b-b8dd-136a5c76f792))
-    (pin "1" (uuid fc7fa1c6-0299-4c75-916e-092a6bffd569))
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
-          (reference "R54") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 43.18 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0df8c493-43ab-42b3-81d8-634b2164c598)
-    (property "Reference" "H2" (at 45.72 110.49 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 45.72 113.03 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 43.18 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 43.18 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5912eb69-90cb-457b-a9ad-53cca18f10cb))
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 41.91 152.4 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1de268e7-d012-4165-943d-bb088bbadbae)
-    (property "Reference" "R51" (at 44.45 152.4 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 46.99 152.4 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 40.132 152.4 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 41.91 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 9e1d0148-44c9-417e-ad26-005e01718935))
-    (pin "1" (uuid e8b2677f-694b-4630-abd8-fda336667b5c))
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
-          (reference "R51") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 43.18 120.65 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 381f04cc-fd69-4f2a-8b9f-080459e995a6)
-    (property "Reference" "R52" (at 45.72 120.65 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 48.26 120.65 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 41.402 120.65 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 43.18 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid b5333e0e-4a74-422f-b02b-4b6360ba84da))
-    (pin "1" (uuid 17de8288-5227-4a3b-a3bb-ee27a5d9d060))
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
-          (reference "R52") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 68.58 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 42623b21-1334-4694-b19e-fe669142ef53)
-    (property "Reference" "H4" (at 71.12 110.49 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 71.12 113.03 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 68.58 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 68.58 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0dcba38a-b3e5-4508-8840-6335ea386a09))
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
-          (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 43.18 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4e8f73a2-fc30-43f9-b781-db1f1e9dcc4f)
-    (property "Reference" "#PWR078" (at 43.18 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 43.18 132.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 43.18 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 43.18 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a0cfde95-9e0d-4034-97fe-e05a228ea6da))
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
-          (reference "#PWR078") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 67.31 152.4 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5af6ad22-b7af-4381-ab3b-d242ad08926b)
-    (property "Reference" "R53" (at 69.85 152.4 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 72.39 152.4 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 65.532 152.4 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 67.31 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 1e77b115-4fab-4ef0-8749-61810ef470a3))
-    (pin "1" (uuid 5bfce4a7-4756-4a94-ace2-1ba9184520f1))
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
-          (reference "R53") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 67.31 158.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7b0ef6dd-1dc0-48bf-8c0a-8ca8bc83279a)
-    (property "Reference" "#PWR079" (at 67.31 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 67.31 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 67.31 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 67.31 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9a140424-631b-4f26-a16c-47bb56032a9c))
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
-          (reference "#PWR079") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 68.58 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9a12fcd4-02ed-43ee-b392-60944a9f70c9)
-    (property "Reference" "#PWR080" (at 68.58 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 68.58 132.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 68.58 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 68.58 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0414c9d6-efe6-44f7-8bf0-c8fab1c5c69d))
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
-          (reference "#PWR080") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 41.91 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b50d23de-f8ca-4ae3-b5f9-be2849715fd8)
-    (property "Reference" "H1" (at 44.45 142.24 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 44.45 144.78 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 41.91 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 41.91 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5295e888-1862-471f-aa86-0035830f5d9a))
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
-          (reference "H1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 67.31 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d357ed36-40ed-4695-a759-7679aaeef19d)
-    (property "Reference" "H3" (at 69.85 142.24 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 69.85 144.78 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 67.31 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 67.31 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c2527470-f710-4869-9396-a40f50bde4f3))
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 41.91 158.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fe619e8b-c7a6-4421-b2fa-acf5f2bf6326)
-    (property "Reference" "#PWR077" (at 41.91 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 41.91 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 41.91 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 41.91 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eb2e5d59-4970-4270-ad31-ef92a95a98ce))
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
-          (reference "#PWR077") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bf4375b5-a284-455d-927f-489d9aaeb0cc")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 43.18 124.46) (xy 43.18 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0347a4d0-ce8b-491d-9b2e-8a99f71c5f8c")
+	)
+	(wire
+		(pts
+			(xy 67.31 147.32) (xy 67.31 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f54dcdb-38ec-4548-9697-9e0b9f715faa")
+	)
+	(wire
+		(pts
+			(xy 68.58 115.57) (xy 68.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334fc538-7216-466a-bb77-230882b0aa63")
+	)
+	(wire
+		(pts
+			(xy 67.31 156.21) (xy 67.31 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698e69a6-316a-4284-88cc-36b77687cce5")
+	)
+	(wire
+		(pts
+			(xy 43.18 115.57) (xy 43.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fe85b1-88ab-464e-bb57-42100da5cffe")
+	)
+	(wire
+		(pts
+			(xy 68.58 124.46) (xy 68.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de63499-e9e1-461d-ac4a-2a2217742b4d")
+	)
+	(wire
+		(pts
+			(xy 41.91 156.21) (xy 41.91 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5fc1acc-01e8-4333-8885-308d26983fbe")
+	)
+	(wire
+		(pts
+			(xy 41.91 147.32) (xy 41.91 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b707dc-5892-4af3-a45e-a24c57318164")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01260722-2a1a-44d8-a65d-f865b6cbd3db")
+		(property "Reference" "R54"
+			(at 71.12 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 73.66 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 66.802 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2adbad5-3290-4f0b-b8dd-136a5c76f792")
+		)
+		(pin "1"
+			(uuid "fc7fa1c6-0299-4c75-916e-092a6bffd569")
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 43.18 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0df8c493-43ab-42b3-81d8-634b2164c598")
+		(property "Reference" "H2"
+			(at 45.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 45.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5912eb69-90cb-457b-a9ad-53cca18f10cb")
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 152.4 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1de268e7-d012-4165-943d-bb088bbadbae")
+		(property "Reference" "R51"
+			(at 44.45 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 46.99 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 40.132 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e1d0148-44c9-417e-ad26-005e01718935")
+		)
+		(pin "1"
+			(uuid "e8b2677f-694b-4630-abd8-fda336667b5c")
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "381f04cc-fd69-4f2a-8b9f-080459e995a6")
+		(property "Reference" "R52"
+			(at 45.72 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 48.26 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 41.402 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5333e0e-4a74-422f-b02b-4b6360ba84da")
+		)
+		(pin "1"
+			(uuid "17de8288-5227-4a3b-a3bb-ee27a5d9d060")
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 68.58 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42623b21-1334-4694-b19e-fe669142ef53")
+		(property "Reference" "H4"
+			(at 71.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dcba38a-b3e5-4508-8840-6335ea386a09")
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e8f73a2-fc30-43f9-b781-db1f1e9dcc4f")
+		(property "Reference" "#PWR078"
+			(at 43.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0cfde95-9e0d-4034-97fe-e05a228ea6da")
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 152.4 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5af6ad22-b7af-4381-ab3b-d242ad08926b")
+		(property "Reference" "R53"
+			(at 69.85 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 72.39 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 65.532 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e77b115-4fab-4ef0-8749-61810ef470a3")
+		)
+		(pin "1"
+			(uuid "5bfce4a7-4756-4a94-ace2-1ba9184520f1")
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b0ef6dd-1dc0-48bf-8c0a-8ca8bc83279a")
+		(property "Reference" "#PWR079"
+			(at 67.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a140424-631b-4f26-a16c-47bb56032a9c")
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a12fcd4-02ed-43ee-b392-60944a9f70c9")
+		(property "Reference" "#PWR080"
+			(at 68.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0414c9d6-efe6-44f7-8bf0-c8fab1c5c69d")
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 41.91 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b50d23de-f8ca-4ae3-b5f9-be2849715fd8")
+		(property "Reference" "H1"
+			(at 44.45 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 41.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5295e888-1862-471f-aa86-0035830f5d9a")
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 67.31 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d357ed36-40ed-4695-a759-7679aaeef19d")
+		(property "Reference" "H3"
+			(at 69.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 69.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 67.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2527470-f710-4869-9396-a40f50bde4f3")
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe619e8b-c7a6-4421-b2fa-acf5f2bf6326")
+		(property "Reference" "#PWR077"
+			(at 41.91 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb2e5d59-4970-4270-ad31-ef92a95a98ce")
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e37a9f6c-c772-4f76-b91a-38cf2a52ff11"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

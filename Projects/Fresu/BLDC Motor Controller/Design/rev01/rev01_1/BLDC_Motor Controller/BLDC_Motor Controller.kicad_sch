@@ -1,215 +1,458 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
-
-  (paper "A4")
-
-  (title_block
-    (title "ESC_Rev01_1")
-    (date "2024-01-06")
-    (rev "rev01_1")
-  )
-
-  (lib_symbols
-  )
-
-
-  (text "${TITLE}\n" (at 116.84 29.21 0)
-    (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
-    (uuid e3dc3c89-1b19-4a58-8045-cd33b50779e6)
-  )
-
-  (sheet (at 105.41 44.45) (size 33.02 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0a58613e-bda0-4563-bf79-2ea6a0b26c8f)
-    (property "Sheetname" "INPUT PROTECTION" (at 105.41 43.7384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "INPUT PROTECTION.kicad_sch" (at 105.41 71.7046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 66.04 44.45) (size 33.02 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 3d0bda60-daf6-4222-a263-9b2f2899bfdb)
-    (property "Sheetname" "Block Diagram" (at 66.04 43.7384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Block Diagram.kicad_sch" (at 66.04 71.7046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 26.67 78.74) (size 33.02 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 6e5056e0-f286-40ca-8b4a-d506221b7bad)
-    (property "Sheetname" "MCU" (at 26.67 78.0284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "MCU.kicad_sch" (at 26.67 105.9946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 105.41 78.74) (size 33.02 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 6ff318f8-ab62-4d6d-8e81-6536cd3472e5)
-    (property "Sheetname" "MOSFETS" (at 105.41 78.0284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "MOSFETS.kicad_sch" (at 105.41 105.9946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 184.15 78.74) (size 33.02 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 83374fcd-87ee-43a7-8a01-920f2f382f6c)
-    (property "Sheetname" "CAN BUS" (at 184.15 78.0284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "CAN BUS.kicad_sch" (at 184.15 105.9946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 66.04 78.74) (size 33.02 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6)
-    (property "Sheetname" "FET Driver" (at 66.04 78.0284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "FET Driver.kicad_sch" (at 66.04 105.9946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Field2" "" (at 66.04 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 223.52 78.74) (size 33.02 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b75e002c-1f9d-4638-b120-9eb91151ad06)
-    (property "Sheetname" "USB" (at 223.52 78.0284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "USB.kicad_sch" (at 223.52 105.9946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "12"))
-      )
-    )
-  )
-
-  (sheet (at 144.78 45.72) (size 33.02 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ba85aeeb-1956-4c49-a97a-652e9d34f1e8)
-    (property "Sheetname" "STEP-DOWN" (at 144.78 45.0084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "STEP-DOWN.kicad_sch" (at 144.78 72.9746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 144.78 78.74) (size 33.02 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid cf649508-ceea-40bc-abe4-7aa1a01e8c7e)
-    (property "Sheetname" "Filters" (at 144.78 78.0284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Filters.kicad_sch" (at 144.78 105.9946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 26.67 44.45) (size 33.02 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d10f54c5-0302-4af3-bb70-814f5508ae05)
-    (property "Sheetname" "Overview" (at 26.67 43.7384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Overview.kicad_sch" (at 26.67 71.7046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 26.67 113.03) (size 33.02 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid e37a9f6c-c772-4f76-b91a-38cf2a52ff11)
-    (property "Sheetname" "Mechanical" (at 26.67 112.3184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Mechanical.kicad_sch" (at 26.67 140.2846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BLDC_Motor Controller"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "7"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "ESC_Rev01_1")
+		(date "2024-01-06")
+		(rev "rev01_1")
+	)
+	(lib_symbols)
+	(text "${TITLE}\n"
+		(exclude_from_sim no)
+		(at 116.84 29.21 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3dc3c89-1b19-4a58-8045-cd33b50779e6")
+	)
+	(sheet
+		(at 105.41 44.45)
+		(size 33.02 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a58613e-bda0-4563-bf79-2ea6a0b26c8f")
+		(property "Sheetname" "INPUT PROTECTION"
+			(at 105.41 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INPUT PROTECTION.kicad_sch"
+			(at 105.41 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 44.45)
+		(size 33.02 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3d0bda60-daf6-4222-a263-9b2f2899bfdb")
+		(property "Sheetname" "Block Diagram"
+			(at 66.04 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Block Diagram.kicad_sch"
+			(at 66.04 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 78.74)
+		(size 33.02 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e5056e0-f286-40ca-8b4a-d506221b7bad")
+		(property "Sheetname" "MCU"
+			(at 26.67 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 26.67 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 78.74)
+		(size 33.02 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ff318f8-ab62-4d6d-8e81-6536cd3472e5")
+		(property "Sheetname" "MOSFETS"
+			(at 105.41 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFETS.kicad_sch"
+			(at 105.41 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 78.74)
+		(size 33.02 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "83374fcd-87ee-43a7-8a01-920f2f382f6c")
+		(property "Sheetname" "CAN BUS"
+			(at 184.15 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN BUS.kicad_sch"
+			(at 184.15 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 78.74)
+		(size 33.02 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ab6ae8b7-f67b-4c8c-b5ef-5539fce989c6")
+		(property "Sheetname" "FET Driver"
+			(at 66.04 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FET Driver.kicad_sch"
+			(at 66.04 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 78.74)
+		(size 33.02 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b75e002c-1f9d-4638-b120-9eb91151ad06")
+		(property "Sheetname" "USB"
+			(at 223.52 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 223.52 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 45.72)
+		(size 33.02 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba85aeeb-1956-4c49-a97a-652e9d34f1e8")
+		(property "Sheetname" "STEP-DOWN"
+			(at 144.78 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STEP-DOWN.kicad_sch"
+			(at 144.78 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 78.74)
+		(size 33.02 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf649508-ceea-40bc-abe4-7aa1a01e8c7e")
+		(property "Sheetname" "Filters"
+			(at 144.78 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Filters.kicad_sch"
+			(at 144.78 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 44.45)
+		(size 33.02 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d10f54c5-0302-4af3-bb70-814f5508ae05")
+		(property "Sheetname" "Overview"
+			(at 26.67 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Overview.kicad_sch"
+			(at 26.67 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 113.03)
+		(size 33.02 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e37a9f6c-c772-4f76-b91a-38cf2a52ff11")
+		(property "Sheetname" "Mechanical"
+			(at 26.67 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mechanical.kicad_sch"
+			(at 26.67 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor Controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
