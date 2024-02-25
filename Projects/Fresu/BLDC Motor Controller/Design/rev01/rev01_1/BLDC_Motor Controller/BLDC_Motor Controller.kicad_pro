@@ -60,13 +60,13 @@
         },
         {
           "gap": 0.508,
-          "via_gap": 0.4572,
+          "via_gap": 0.2032,
           "width": 0.2032
         },
         {
-          "gap": 0.2032,
+          "gap": 0.2794,
           "via_gap": 0.2032,
-          "width": 0.254
+          "width": 0.3048
         }
       ],
       "drc_exclusions": [],

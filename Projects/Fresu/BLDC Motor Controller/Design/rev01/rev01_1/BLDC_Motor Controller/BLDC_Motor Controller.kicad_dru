@@ -1,0 +1,13 @@
+(version 1)
+
+(rule "Pad to Track Clearance"
+    (constraint clearance (min 7.5mil))
+    (condition "A.intersectsCourtyard('U1')")
+    (condition "A.Type == 'Pad' && B.Type == 'Pad'"))
+
+
+(rule "Current Sense Net=ties via to pad clearance"
+    (constraint clearance (min 0mil))
+    (condition "A.intersectsCourtyard('NT8') || A.intersectsCourtyard('NT9') || A.intersectsCourtyard('NT7')") )
+	# (condition "A.intersectsCourtyard('NT9')"))
+   # (condition "A.Type == 'Via' && B.Type == 'Pad'"))
