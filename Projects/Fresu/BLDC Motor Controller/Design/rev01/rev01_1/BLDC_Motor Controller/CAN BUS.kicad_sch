@@ -2176,8 +2176,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0368e1d2-cda5-4b85-aa73-2766cf9590a3")
-		(property "Reference" "U3"
-			(at 31.75 115.57 0)
+		(property "Reference" "J8"
+			(at 31.75 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2186,7 @@
 			)
 		)
 		(property "Value" "S4B-XH-SM4-TB-(LF)(SN)"
-			(at 31.75 118.11 0)
+			(at 31.75 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,7 +2253,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
-					(reference "U3")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2599,7 +2599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55465cee-1694-4a30-9aba-ce7653cd6aa8")
-		(property "Reference" "C44"
+		(property "Reference" "C47"
 			(at 82.55 100.33 0)
 			(effects
 				(font
@@ -2653,7 +2653,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
-					(reference "C44")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -2934,7 +2934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ff09295-b7d2-411c-aa69-bbdec7650978")
-		(property "Reference" "C46"
+		(property "Reference" "C49"
 			(at 149.86 88.9 0)
 			(effects
 				(font
@@ -2988,7 +2988,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
-					(reference "C46")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -3003,7 +3003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a07db102-cf77-4de0-9576-def90618a623")
-		(property "Reference" "C45"
+		(property "Reference" "C48"
 			(at 82.55 133.35 0)
 			(effects
 				(font
@@ -3057,7 +3057,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
-					(reference "C45")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -3443,7 +3443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edde250e-2df5-45dd-bfc0-cc9200e43d54")
-		(property "Reference" "D9"
+		(property "Reference" "D14"
 			(at 74.93 101.6 90)
 			(effects
 				(font
@@ -3500,7 +3500,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83374fcd-87ee-43a7-8a01-920f2f382f6c"
-					(reference "D9")
+					(reference "D14")
 					(unit 1)
 				)
 			)

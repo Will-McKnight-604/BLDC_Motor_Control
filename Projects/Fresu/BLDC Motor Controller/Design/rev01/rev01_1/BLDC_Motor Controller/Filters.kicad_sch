@@ -2234,7 +2234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ca3bb29-81aa-4645-a13f-9a99012001f2")
-		(property "Reference" "C53"
+		(property "Reference" "C56"
 			(at 102.87 115.57 0)
 			(effects
 				(font
@@ -2288,7 +2288,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-					(reference "C53")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -2303,7 +2303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ee8f4bc-cd56-4a8a-87bd-3c847bebb415")
-		(property "Reference" "C51"
+		(property "Reference" "C54"
 			(at 102.87 26.67 0)
 			(effects
 				(font
@@ -2357,7 +2357,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-					(reference "C51")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -2372,7 +2372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23b606e2-a1b1-448b-a20e-5c6546c63f32")
-		(property "Reference" "J7"
+		(property "Reference" "J9"
 			(at 30.48 102.87 0)
 			(effects
 				(font
@@ -2442,7 +2442,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-					(reference "J7")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2589,7 +2589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "328d0388-48e4-4b9b-bbe6-b42392088be9")
-		(property "Reference" "C52"
+		(property "Reference" "C55"
 			(at 102.87 71.12 0)
 			(effects
 				(font
@@ -2643,7 +2643,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-					(reference "C52")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -2658,7 +2658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fb610db-b255-46c9-bd4f-c3d6ea68dbaf")
-		(property "Reference" "C47"
+		(property "Reference" "C50"
 			(at 87.63 45.72 0)
 			(effects
 				(font
@@ -2712,7 +2712,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-					(reference "C47")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -2923,7 +2923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78fa73bf-4ac6-4274-af1d-e0879a428927")
-		(property "Reference" "R50"
+		(property "Reference" "R61"
 			(at 102.87 177.8 90)
 			(effects
 				(font
@@ -2975,7 +2975,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-					(reference "R50")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -3259,7 +3259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ddf1d2d-aece-42e7-9aaf-b7bedc69b0fc")
-		(property "Reference" "C54"
+		(property "Reference" "C57"
 			(at 102.87 160.02 0)
 			(effects
 				(font
@@ -3313,7 +3313,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-					(reference "C54")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -3398,7 +3398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a424601b-b8c9-4f6f-b232-f94619a92275")
-		(property "Reference" "C49"
+		(property "Reference" "C52"
 			(at 87.63 134.62 0)
 			(effects
 				(font
@@ -3452,7 +3452,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-					(reference "C49")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -3735,7 +3735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9c4e543-6e50-4de9-a5ac-f86029e31e94")
-		(property "Reference" "C50"
+		(property "Reference" "C53"
 			(at 87.63 179.07 0)
 			(effects
 				(font
@@ -3789,7 +3789,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-					(reference "C50")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -3870,7 +3870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbdc6e88-b6d5-4e17-bd70-675afafad43f")
-		(property "Reference" "C48"
+		(property "Reference" "C51"
 			(at 87.63 90.17 0)
 			(effects
 				(font
@@ -3924,7 +3924,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf649508-ceea-40bc-abe4-7aa1a01e8c7e"
-					(reference "C48")
+					(reference "C51")
 					(unit 1)
 				)
 			)

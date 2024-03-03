@@ -533,7 +533,7 @@
       "idf": "",
       "netlist": "",
       "plot": "SMT PACKAGE/",
-      "pos_files": "",
+      "pos_files": "SMT PACKAGE/Pick_and_Place/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

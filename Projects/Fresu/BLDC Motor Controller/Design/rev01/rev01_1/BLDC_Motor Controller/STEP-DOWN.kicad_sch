@@ -1641,7 +1641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1636b616-f816-4c5c-ba43-433284be57e4")
-		(property "Reference" "C61"
+		(property "Reference" "C5"
 			(at 157.48 77.47 0)
 			(effects
 				(font
@@ -1695,7 +1695,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ba85aeeb-1956-4c49-a97a-652e9d34f1e8"
-					(reference "C61")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -1712,22 +1712,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a581ef4-adbf-43a2-b037-89621c6a4d3d")
-		(property "Reference" "D14"
-			(at 207.01 90.4875 90)
+		(property "Reference" "D4"
+			(at 213.36 90.4874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_G"
-			(at 207.01 93.0275 90)
+			(at 213.36 93.0274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
@@ -1766,7 +1766,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ba85aeeb-1956-4c49-a97a-652e9d34f1e8"
-					(reference "D14")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -1783,22 +1783,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "230d38f0-8a43-47b3-9fdb-dec4a19b063a")
-		(property "Reference" "R60"
-			(at 208.28 78.74 0)
+		(property "Reference" "R4"
+			(at 213.36 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1k"
-			(at 208.28 81.28 0)
+			(at 213.36 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -1837,7 +1837,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ba85aeeb-1956-4c49-a97a-652e9d34f1e8"
-					(reference "R60")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1853,8 +1853,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "265f8d5b-8e5c-454a-820f-5c646c0899e9")
-		(property "Reference" "C62"
-			(at 171.45 77.47 0)
+		(property "Reference" "C6"
+			(at 171.45 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +1863,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 171.45 80.01 0)
+			(at 171.45 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +1907,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ba85aeeb-1956-4c49-a97a-652e9d34f1e8"
-					(reference "C62")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2121,7 +2121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b65066b-dc11-483a-a991-3d510181bff9")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -2176,7 +2176,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ba85aeeb-1956-4c49-a97a-652e9d34f1e8"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2192,8 +2192,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96150a89-1324-4076-9c8a-d4359bf624b8")
-		(property "Reference" "C60"
-			(at 124.46 77.47 0)
+		(property "Reference" "C4"
+			(at 124.46 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +2202,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 124.46 80.01 0)
+			(at 124.46 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2246,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ba85aeeb-1956-4c49-a97a-652e9d34f1e8"
-					(reference "C60")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2394,8 +2394,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4cc3c0a-673a-47d9-ba33-b59bcb327d00")
-		(property "Reference" "D12"
-			(at 90.17 90.4875 90)
+		(property "Reference" "D15"
+			(at 90.17 90.4874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +2404,7 @@
 			)
 		)
 		(property "Value" "LED_G"
-			(at 90.17 93.0275 90)
+			(at 90.17 93.0274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +2448,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ba85aeeb-1956-4c49-a97a-652e9d34f1e8"
-					(reference "D12")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -2530,7 +2530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c553c8cd-9668-410f-834e-2b70df4a6818")
-		(property "Reference" "C59"
+		(property "Reference" "C3"
 			(at 110.49 77.47 0)
 			(effects
 				(font
@@ -2584,7 +2584,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ba85aeeb-1956-4c49-a97a-652e9d34f1e8"
-					(reference "C59")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2600,8 +2600,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccef74ca-dd0b-469c-a1ec-be5effd8cb55")
-		(property "Reference" "R59"
-			(at 88.9 78.74 0)
+		(property "Reference" "R62"
+			(at 88.9 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2610,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 88.9 81.28 0)
+			(at 88.9 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +2654,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ba85aeeb-1956-4c49-a97a-652e9d34f1e8"
-					(reference "R59")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -2735,7 +2735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d937f712-083e-48f0-8a7d-84ac0cdc1297")
-		(property "Reference" "D13"
+		(property "Reference" "D3"
 			(at 184.4675 68.58 0)
 			(effects
 				(font
@@ -2787,7 +2787,7 @@
 		(instances
 			(project "BLDC_Motor Controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ba85aeeb-1956-4c49-a97a-652e9d34f1e8"
-					(reference "D13")
+					(reference "D3")
 					(unit 1)
 				)
 			)
