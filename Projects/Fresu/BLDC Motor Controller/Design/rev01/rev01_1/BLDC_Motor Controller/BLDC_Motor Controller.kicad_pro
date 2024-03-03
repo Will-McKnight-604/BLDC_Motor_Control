@@ -532,7 +532,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "SMT PACKAGE/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
